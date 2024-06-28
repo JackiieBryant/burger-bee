@@ -11,7 +11,7 @@ const [count, setCounter] = useState(10)
 
 return (
         <div>
-           <h1>Bonjour,, {prenom}</h1>
+           <h1>Bonjour, {prenom}</h1>
            <p>{count}</p>
            <button onClick={handleClick}>Incrementer</button>
         </div>
