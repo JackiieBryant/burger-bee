@@ -13,7 +13,7 @@ return (
         <div>
            <h1>Bonjour, {prenom}</h1>
            <p>{count}</p>
-           <button onClick={handleClick}>Incrementet</button>
+           <button onClick={handleClick}>Incremente</button>
         </div>
   ) 
 }
